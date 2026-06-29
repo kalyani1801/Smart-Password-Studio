@@ -23,5 +23,12 @@
 <img width="1893" height="902" alt="Screenshot 2026-06-29 225228" src="https://github.com/user-attachments/assets/465c60c6-50de-449f-b1ed-5c5085450c3c" />
 <img width="1896" height="907" alt="image" src="https://github.com/user-attachments/assets/c02c7a25-70a2-4cfe-acc0-aa70c28c174d" />
 
+## Installation & Usage
+1. Clone the repository:
+   git clone https://github.com/kalyani1801/Smart-Password-Studio.git
+2. Navigate to the project folder.
+3. Open `index.html` in any modern web browser.
+4. Use the application to generate secure passwords.
+   
 ## Author
 Gandham Kalyani
