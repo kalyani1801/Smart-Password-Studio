@@ -1,34 +1,26 @@
-# 🔐 Smart Password Studio
+# Smart Password Studio
 
-Smart Password Studio is a simple web application that helps users generate strong passwords and check password strength.
+## Features
+- Generate secure passwords
+- Adjustable password length
+- Uppercase letters
+- Lowercase letters
+- Numbers
+- Special characters
+- Password strength indicator
+- Copy password functionality
 
----
-
-## 📌 Features
-
-- Generate random strong passwords
-- Check password strength
-- Show / Hide password
-- Copy password easily
-
----
-
-## 🛠️ Tech Used
-
-- HTML
-- CSS
+## Technologies Used
+- HTML5
+- CSS3
 - JavaScript
 
----
+## Live Demo
 
-## ▶️ How to Run
 
-- Open the project folder
-- Click on `index.html`
-- Run it in your browser
+## Screenshots
+<img width="1896" height="907" alt="image" src="https://github.com/user-attachments/assets/c02c7a25-70a2-4cfe-acc0-aa70c28c174d" />
 
----
 
-## 👨‍💻 Author
-
+## Author
 Gandham Kalyani
