@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasswordForge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>PasswordForge</h1>
+        <p>Create secure passwords with real-time strength analysis</p>
+    </div>
+
+    <div class="password-section">
+
+        <input type="text" id="password" readonly>
+
+        <button id="copyBtn">
+            Copy
+        </button>
+
+    </div>
+
+    <div class="length-section">
+
+        <div class="length-header">
+            <span>Password Length</span>
+            <span id="lengthValue">16</span>
+        </div>
+
+        <input type="range" min="6" max="50" value="16" id="lengthSlider">
+
+    </div>
+
+    <div class="options">
+
+        <label class="option-card">
+            <input type="checkbox" id="uppercase" checked>
+            Uppercase Letters
+        </label>
+
+        <label class="option-card">
+            <input type="checkbox" id="lowercase" checked>
+            Lowercase Letters
+        </label>
+
+        <label class="option-card">
+            <input type="checkbox" id="numbers" checked>
+            Numbers
+        </label>
+
+        <label class="option-card">
+            <input type="checkbox" id="symbols" checked>
+            Special Characters
+        </label>
+
+    </div>
+
+    <div class="strength-wrapper">
+
+        <div class="strength-top">
+            <span>Strength</span>
+            <span id="strengthText">Strong</span>
+        </div>
+
+        <div class="strength-bar">
+            <div id="strengthFill"></div>
+        </div>
+
+    </div>
+
+    <button id="generateBtn">
+        Generate Password
+    </button>
+
+    <div class="history">
+
+        <h3>Recent Passwords</h3>
+
+        <div id="historyList"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
